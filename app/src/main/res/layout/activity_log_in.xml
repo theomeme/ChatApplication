@@ -69,7 +69,23 @@
         android:textColor="@color/black"
         android:textStyle="bold"/>
 
+    <Button
+        android:id="@+id/btnSignUp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
 
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/white"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_add" />
 
 
 </RelativeLayout>
